@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1706187893568919633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6083984992692997428}
+  - component: {fileID: 5877354566806390035}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6083984992692997428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706187893568919633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 6083779051032721512}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1.67}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &5877354566806390035
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706187893568919633}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &6856233989589754578
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,7 +87,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.3044765, y: 1.766, z: -7.350444}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6083984992692997428}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -49,150 +107,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: '
-
-    Transform ''mixamorig:LeftToeBase'' has been deleted
-
-    Transform
-    ''mixamorig:LeftFoot'' has been deleted
-
-    Transform ''mixamorig:LeftLeg''
-    has been deleted
-
-    Transform ''mixamorig:LeftUpLeg'' has been deleted
-
-    Transform
-    ''mixamorig:RightToeBase'' has been deleted
-
-    Transform ''mixamorig:RightFoot''
-    has been deleted
-
-    Transform ''mixamorig:RightLeg'' has been deleted
-
-    Transform
-    ''mixamorig:RightUpLeg'' has been deleted
-
-    Transform ''mixamorig:LeftHandIndex3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandIndex2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandIndex1'' has been deleted
-
-    Transform ''mixamorig:LeftHandMiddle3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandMiddle2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandMiddle1'' has been deleted
-
-    Transform ''mixamorig:LeftHandPinky3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandPinky2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandPinky1'' has been deleted
-
-    Transform ''mixamorig:LeftHandRing3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandRing2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandRing1'' has been deleted
-
-    Transform ''mixamorig:LeftHandThumb3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandThumb2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandThumb1'' has been deleted
-
-    Transform ''mixamorig:LeftHand''
-    has been deleted
-
-    Transform ''mixamorig:LeftForeArm'' has been deleted
-
-    Transform
-    ''mixamorig:LeftArm'' has been deleted
-
-    Transform ''mixamorig:LeftShoulder''
-    has been deleted
-
-    Transform ''mixamorig:Leye'' has been deleted
-
-    Transform
-    ''mixamorig:Reye'' has been deleted
-
-    Transform ''mixamorig:Head'' has been
-    deleted
-
-    Transform ''mixamorig:Neck'' has been deleted
-
-    Transform ''mixamorig:RightHandIndex3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandIndex2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandIndex1'' has been deleted
-
-    Transform ''mixamorig:RightHandMiddle3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandMiddle2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandMiddle1'' has been deleted
-
-    Transform ''mixamorig:RightHandPinky3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandPinky2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandPinky1'' has been deleted
-
-    Transform ''mixamorig:RightHandRing3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandRing2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandRing1'' has been deleted
-
-    Transform ''mixamorig:RightHandThumb3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandThumb2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandThumb1'' has been deleted
-
-    Transform ''mixamorig:RightHand''
-    has been deleted
-
-    Transform ''mixamorig:RightForeArm'' has been deleted
-
-    Transform
-    ''mixamorig:RightArm'' has been deleted
-
-    Transform ''mixamorig:RightShoulder''
-    has been deleted
-
-    Transform ''mixamorig:Spine2'' has been deleted
-
-    Transform
-    ''mixamorig:Spine1'' has been deleted
-
-    Transform ''mixamorig:Spine'' has
-    been deleted
-
-    Transform ''mixamorig:Hips'' has been deleted'
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -214,6 +129,7 @@ MonoBehaviour:
   _speed: 1.9
   smoothTime: 0.3
   animator: {fileID: 6045895227132731269}
+  headTransform: {fileID: 6083984992692997428}
   defaultModel: {fileID: 919132149155446097, guid: bfae571fa41dfc4468d6a9066995c5f0, type: 3}
   attackRange: 0.1
   onCatch:

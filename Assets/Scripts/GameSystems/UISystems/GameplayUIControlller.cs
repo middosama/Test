@@ -1,9 +1,8 @@
-﻿using Assets.Scripts.VisualizeFXs;
+﻿using VisualizeFXs;
 using System.Collections;
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
-using VisualizeFXs;
 
 namespace GameSystems.UISystems
 {

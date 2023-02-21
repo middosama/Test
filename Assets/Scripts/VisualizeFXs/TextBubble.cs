@@ -5,7 +5,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 
-namespace Assets.Scripts.VisualizeFXs
+namespace VisualizeFXs
 {
     
     public class TextBubble : DynamicObjectPooling<TextBubble>

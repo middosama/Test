@@ -7,6 +7,7 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using VisualizeFXs;
 
 namespace Characters
 {
@@ -33,6 +34,7 @@ namespace Characters
         public IController controller;
 
         [SerializeField] Animator animator;
+        [SerializeField] Transform headTransform;
 
 
         private int _state = -2;
@@ -137,6 +139,7 @@ namespace Characters
 
         IEnumerator ITemporitySpeedSet(float speed, float duration)
         {
+            TextBubble.Spawn(headTransform).SetData(speed > 0 ? "<size=40><color=#00ff00ff>Speed++</color>" : "<size=40><color=#ff0000ff>Speed--</color>");
             FXSpeed = speed;
             yield return new WaitForSeconds(duration);
             FXSpeed = 0;
